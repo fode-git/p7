@@ -1,0 +1,42 @@
+
+.blocGeneral{
+    /*background-color: darkred;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blocdropdown{
+    width: 70%;
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------Version Mobile--------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .blocGeneral{
+        /*background-color: darkred;*/
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blocdropdown{
+        width: 80%;
+        height: auto;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

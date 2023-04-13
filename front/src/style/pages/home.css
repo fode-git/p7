@@ -1,0 +1,32 @@
+
+.blocGeneral{
+    /*background-color: darkred;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blocarticlepagehome{
+    width: 100%;
+    height: auto;
+}
+
+/*---------------------Version Mobile--------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .blocGeneral{
+        /*background-color: darkred;*/
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blocarticlepagehome{
+        width: 100%;
+        height: auto;
+    }
+}

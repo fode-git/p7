@@ -1,0 +1,86 @@
+.bloc_carrousel{
+    background-color: black;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.vectorRight{
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    position: absolute;
+    right: 2%;
+ 
+
+}
+.vectorLeght{
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    position: absolute;
+    left: 2%;
+}
+.imageactif{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 1;
+}
+.imageactif > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image{
+    display: none;
+}
+.paragrapheCpt{ 
+    width: auto;
+    height: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+/*---------------------Version Mobile--------------------------------*/
+
+@media screen and (max-width: 767px) {
+    .bloc_carrousel{
+        background-color: black;
+        width: 80%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    .vectorRight{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        position: absolute;
+        right: 2%;
+     
+    
+    }
+    .vectorLeght{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        position: absolute;
+        left: 2%;
+    }
+    .compteur{
+        width: 100%;
+        object-fit: cover;
+    
+    }
+}
