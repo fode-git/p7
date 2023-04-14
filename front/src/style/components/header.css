@@ -21,7 +21,7 @@
     height: 100px;
 } 
 nav{
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,12 +31,18 @@ nav{
     font-size: 30px;
     color: #FF6060;
     text-decoration:none;
-
 }
 .linkapropos{
     font-size: 30px;
     color: #FF6060;
     text-decoration:none;
+}
+
+.linkaccueil:focus {
+    text-decoration: underline;
+}
+.linkapropos:focus{
+    text-decoration:underline;
 }
 
 /*---------------------Version Mobile--------------------------------*/

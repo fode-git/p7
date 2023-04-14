@@ -20,16 +20,15 @@ export default function FicheLogement () {
     if(article === undefined ){
         return <Error/>
     }
+    
 /*------------------------fonction_equipements---------------------------*/
-    const equipe = article.equipments.map((equipement) => {
-        return <li>{equipement}</li>
+    const equipe = article.equipments.map((equipement, index) => {
+        return <li key={index}>{equipement}</li>
     })
 /*-----------------------------fonction_tags ---------------------------*/
-    const taggs = article.tags.map((obj) =>{
-        return<li className='li' >{obj} </li>
+    const taggs = article.tags.map((obj, index) =>{
+        return<li  key={index} className='li'>{obj} </li>
     });
-
- 
 /*------------------------fonction_étoile-----------------------------*/
     let note = [];
 
@@ -55,7 +54,7 @@ return(
     </div>
     <div className='blocnameFotoEtoile'>
             <div className='nameFoto'>
-                <spam className='name'>{article.host.name}</spam>
+                <span className='name'>{article.host.name}</span>
                 <img  src= {article.host.picture} alt="" />
             </div>
                 <span className='etoile'>{ note} </span>

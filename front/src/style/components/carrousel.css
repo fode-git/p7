@@ -43,6 +43,7 @@
 .paragrapheCpt{ 
     width: auto;
     height: 20px;
+    color: white;
     font-weight: bold;
     position: absolute;
     left: 50%;
