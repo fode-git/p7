@@ -10,8 +10,8 @@ return(
           <img  src= {imgerror} alt=""  width={70} height={40} />
         </div>
         <div className='oups'>
-            <spam >Oups! La page que</spam>
-            <spam >vous demandez n'existe pas.</spam>
+            <span >Oups! La page que</span>
+            <span >vous demandez n'existe pas.</span>
         </div>
         <span className='spa_retour_accueil'> 
             <Link className='retour_accueil' to="/"> Retourner sur la page d'accueil</Link>
